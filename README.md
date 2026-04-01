@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GEO Satellite Debris Observation Scheduling System
 
 A constrained time-slot scheduling system for ground-based telescope observation of GEO satellite debris from Hanle station.
@@ -21,3 +22,6 @@ This system schedules observations of ~600 GEO satellite debris objects across m
 - **Visualization**: Gantt charts and GA convergence plots
 
 ## System Architecture
+=======
+# geo-debris-scheduling
+>>>>>>> 51602a478ed6874351420cff3d89d505a3b22e7c
