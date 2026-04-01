@@ -175,10 +175,9 @@ Both approaches are valid — the choice depends on mission objectives.
 - Optimization Techniques  
 
 ---
-
 ## 📎 Project Summary
 
-See: (./project_summary.pdf)
+👉 [View Project Summary (PDF)](project_summary.pdf)
 
 ---
 
