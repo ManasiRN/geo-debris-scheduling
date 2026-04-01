@@ -1,0 +1,18 @@
+{
+  "total_debris": 603,
+  "scheduled_debris": 539,
+  "remaining_debris": 64,
+  "nights_used": 5,
+  "scheduled_per_night": {
+    "1": 165,
+    "2": 157,
+    "3": 129,
+    "4": 55,
+    "5": 33
+  },
+  "coverage_percentage": 89.38640132669984,
+  "physical_limit_per_night": 205,
+  "max_possible_in_5_nights": 1025,
+  "data_assumption": "single_day_shifted",
+  "slot_efficiency_percentage": 52.58536585365854
+}

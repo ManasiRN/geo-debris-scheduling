@@ -1,0 +1,21 @@
+{
+  "total_debris": 603,
+  "greedy": {
+    "scheduled": 539,
+    "remaining": 64,
+    "coverage": 89.38640132669984,
+    "nights_used": 5,
+    "avg_per_night": 107.8
+  },
+  "ga": {
+    "scheduled": 181,
+    "remaining": 422,
+    "coverage": 30.016583747927033,
+    "nights_used": 5,
+    "avg_per_night": 36.2
+  },
+  "comparison": {
+    "difference": -358,
+    "improvement_percentage": -66.41929499072357
+  }
+}

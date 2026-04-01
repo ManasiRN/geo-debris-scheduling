@@ -1,0 +1,23 @@
+{
+  "total_debris": 603,
+  "algorithms": {
+    "greedy": {
+      "scheduled": 539,
+      "remaining": 64,
+      "nights": 5,
+      "coverage": 89.38640132669984,
+      "efficiency": 52.58536585365854
+    },
+    "ga": {
+      "scheduled": 539,
+      "remaining": 64,
+      "nights": 5,
+      "coverage": 89.38640132669984,
+      "efficiency": 52.58536585365854
+    }
+  },
+  "improvement": {
+    "absolute": 0,
+    "percentage": 0.0
+  }
+}

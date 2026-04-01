@@ -1,0 +1,44 @@
+{
+  "total_debris": 603,
+  "total_scheduled": 539,
+  "remaining": 64,
+  "coverage_percentage": 89.38640132669984,
+  "nights_used": 5,
+  "nightly_stats": {
+    "1": {
+      "date": "2025-10-07",
+      "scheduled": 165,
+      "remaining_before": 603,
+      "avg_elevation": 50.08387878787879
+    },
+    "2": {
+      "date": "2025-10-08",
+      "scheduled": 157,
+      "remaining_before": 438,
+      "avg_elevation": 45.34152866242039
+    },
+    "3": {
+      "date": "2025-10-09",
+      "scheduled": 129,
+      "remaining_before": 281,
+      "avg_elevation": 42.65542635658914
+    },
+    "4": {
+      "date": "2025-10-10",
+      "scheduled": 55,
+      "remaining_before": 152,
+      "avg_elevation": 38.97490909090908
+    },
+    "5": {
+      "date": "2025-10-11",
+      "scheduled": 33,
+      "remaining_before": 97,
+      "avg_elevation": 30.87030303030303
+    }
+  },
+  "physical_limits": {
+    "max_per_night": 205,
+    "total_capacity": 1025,
+    "utilization_percentage": 52.58536585365854
+  }
+}

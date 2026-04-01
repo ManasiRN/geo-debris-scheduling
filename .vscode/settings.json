@@ -1,0 +1,20 @@
+{
+  "python.analysis.typeCheckingMode": "off",
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportUnusedImport": "none",
+    "reportUnusedClass": "none",
+    "reportUnusedFunction": "none",
+    "reportUnusedVariable": "none",
+    "reportUnusedCoroutine": "none",
+    "reportUnusedExpression": "none",
+    "reportPrivateImportUsage": "none",
+    "reportArgumentType": "none",
+    "reportOperatorIssue": "none",
+    "reportPossiblyUnboundVariable": "none",
+    "reportUndefinedVariable": "none",
+    "reportGeneralTypeIssues": "none"
+  },
+  "[python]": {
+    "editor.formatOnSave": true
+  }
+}

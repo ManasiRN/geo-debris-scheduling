@@ -1,0 +1,29 @@
+{
+  "nightly": {
+    "1": {
+      "greedy_count": 165,
+      "ga_count": 36,
+      "difference": -129
+    },
+    "2": {
+      "greedy_count": 157,
+      "ga_count": 37,
+      "difference": -120
+    },
+    "3": {
+      "greedy_count": 129,
+      "ga_count": 37,
+      "difference": -92
+    },
+    "4": {
+      "greedy_count": 55,
+      "ga_count": 35,
+      "difference": -20
+    },
+    "5": {
+      "greedy_count": 33,
+      "ga_count": 36,
+      "difference": 3
+    }
+  }
+}

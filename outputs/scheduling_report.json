@@ -1,0 +1,49 @@
+{
+  "total_debris": 603,
+  "total_scheduled": 213,
+  "remaining_debris": 390,
+  "coverage_percentage": 35.32338308457712,
+  "nights_used": 5,
+  "nightly_statistics": {
+    "1": {
+      "scheduled_count": 42,
+      "avg_elevation": 53.44095238095238,
+      "night_start": "2025-10-07T12:30:00+00:00",
+      "night_end": "2025-10-08T00:30:00+00:00",
+      "ga_fitness": 42.06065035054691
+    },
+    "2": {
+      "scheduled_count": 44,
+      "avg_elevation": 49.37590909090909,
+      "night_start": "2025-10-08T12:30:00+00:00",
+      "night_end": "2025-10-09T00:30:00+00:00",
+      "ga_fitness": 44.054890051142
+    },
+    "3": {
+      "scheduled_count": 41,
+      "avg_elevation": 47.43219512195122,
+      "night_start": "2025-10-09T12:30:00+00:00",
+      "night_end": "2025-10-10T00:30:00+00:00",
+      "ga_fitness": 41.05213574482351
+    },
+    "4": {
+      "scheduled_count": 43,
+      "avg_elevation": 48.702558139534894,
+      "night_start": "2025-10-10T12:30:00+00:00",
+      "night_end": "2025-10-11T00:30:00+00:00",
+      "ga_fitness": 43.0539358908028
+    },
+    "5": {
+      "scheduled_count": 43,
+      "avg_elevation": 42.21302325581395,
+      "night_start": "2025-10-11T12:30:00+00:00",
+      "night_end": "2025-10-12T00:30:00+00:00",
+      "ga_fitness": 43.04474000744766
+    }
+  },
+  "unscheduled_reasons": {
+    "physical_time_limit": 390,
+    "visibility_window_constraints": 0,
+    "night_window_mismatch": 0
+  }
+}

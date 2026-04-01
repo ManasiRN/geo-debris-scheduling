@@ -1,0 +1,21 @@
+{
+  "summary": {
+    "total_debris": 603,
+    "greedy_scheduled": 539,
+    "ga_scheduled": 213,
+    "count_difference": -326,
+    "greedy_nights": 5,
+    "ga_nights": 5,
+    "greedy_avg_elevation": 44.6147495361781,
+    "ga_avg_elevation": 48.780375586854454,
+    "greedy_idle_time": 102810.0,
+    "ga_idle_time": 171270.0
+  },
+  "improvements": {
+    "count_improvement_nights": 1,
+    "quality_improvement_nights": 5,
+    "total_nights_compared": 5,
+    "count_improved": false,
+    "quality_improved": "True"
+  }
+}
