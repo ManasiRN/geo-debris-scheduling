@@ -62,7 +62,21 @@ H --> H1[Schedules CSV]
 H --> H2[Metrics JSON]
 H --> H3[Visualization Graphs]
 ```
+```mermaid
+flowchart TD
+A[Raw Data] --> B[Preprocessing]
+B --> C[Scheduling]
+C --> D[Validation]
+D --> E[Multi-Night]
+E --> F[Output]
 
+style A fill:#1f77b4,color:#fff
+style B fill:#2ca02c,color:#fff
+style C fill:#ff7f0e,color:#fff
+style D fill:#d62728,color:#fff
+style E fill:#9467bd,color:#fff
+style F fill:#17becf,color:#ff
+```
 ---
 
 ## ⚙️ Core Components
@@ -149,20 +163,6 @@ Both approaches are valid — the choice depends on mission objectives.
   - Fixed durations  
   - Real-time feasibility  
 - Designed **simulation-based fitness evaluation**
-
----
-
-## ⚡ Why This Project Stands Out
-
-Most projects:
-> "Train model → show accuracy"
-
-This project:
-> "Design system → handle constraints → optimize real operations"
-
-✔ Not academic  
-✔ Not toy problem  
-✔ Real system thinking  
 
 ---
 
