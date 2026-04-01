@@ -178,7 +178,7 @@ Both approaches are valid — the choice depends on mission objectives.
 
 ## 📎 Project Summary
 
-See: `project_summary.pdf`
+See: (./project_summary.pdf)
 
 ---
 
