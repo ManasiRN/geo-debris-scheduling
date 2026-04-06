@@ -34,7 +34,7 @@ Even if ~600 debris objects are visible:
 ```mermaid
 flowchart TD
 
-A[Raw TLE / Visibility Data] --> B[Orbit Propagation Layer (SGP4)]
+A[Raw TLE or Visibility Data] --> B[Orbit Propagation - SGP4]
 
 B --> C[Visibility Computation]
 C --> C1[Elevation Filtering]
@@ -46,7 +46,7 @@ D --> D2[Window Validation]
 
 D --> E[Scheduling Engine]
 
-E --> F[Greedy Scheduler (EDF)]
+E --> F[Greedy Scheduler EDF]
 E --> G[Genetic Algorithm Optimizer]
 
 F --> H[Constraint Validation]
@@ -54,9 +54,9 @@ G --> H
 
 H --> H1[No Overlap Check]
 H --> H2[Time Window Validation]
-H --> H3[Slew + Observation Constraints]
+H --> H3[Slew and Observation Constraints]
 
-H --> I[Multi-Night Scheduler]
+H --> I[Multi Night Scheduler]
 I --> I1[Remove Observed Objects]
 I --> I2[Iterative Planning]
 
