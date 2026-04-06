@@ -34,33 +34,40 @@ Even if ~600 debris objects are visible:
 ```mermaid
 flowchart TD
 
-A[Raw Visibility Data CSV] --> B[Preprocessing Layer]
+A[Raw TLE / Visibility Data] --> B[Orbit Propagation Layer (SGP4)]
 
-B --> B1[Night Filtering]
-B --> B2[Visibility Window Validation]
+B --> C[Visibility Computation]
+C --> C1[Elevation Filtering]
+C --> C2[Ground Station Constraints]
 
-B --> C[Scheduling Engine]
+C --> D[Preprocessing Layer]
+D --> D1[Night Filtering]
+D --> D2[Window Validation]
 
-C --> D[Greedy Scheduler EDF]
-C --> E[Genetic Algorithm Optimizer]
+D --> E[Scheduling Engine]
 
-D --> F[Constraint Validation]
-E --> F
+E --> F[Greedy Scheduler (EDF)]
+E --> G[Genetic Algorithm Optimizer]
 
-F --> F1[No Overlap Check]
-F --> F2[Time Window Validation]
-F --> F3[Slew + Observation Constraints]
+F --> H[Constraint Validation]
+G --> H
 
-F --> G[Multi-Night Scheduler]
+H --> H1[No Overlap Check]
+H --> H2[Time Window Validation]
+H --> H3[Slew + Observation Constraints]
 
-G --> G1[Remove Observed Debris]
-G --> G2[Extend Across Nights]
+H --> I[Multi-Night Scheduler]
+I --> I1[Remove Observed Objects]
+I --> I2[Iterative Planning]
 
-G --> H[Output Layer]
+I --> J[Feedback Loop]
+J --> D
 
-H --> H1[Schedules CSV]
-H --> H2[Metrics JSON]
-H --> H3[Visualization Graphs]
+I --> K[Output Layer]
+
+K --> K1[Schedules CSV]
+K --> K2[Performance Metrics]
+K --> K3[Visualization]
 ```
 ```mermaid
 flowchart TD
